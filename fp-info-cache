@@ -1,96 +1,83 @@
-18855701284718
-misc-circuits
+16920067945631
+Sprite
 1X02
-<b>PIN HEADER</b>
+
 
 0
 2
 2
-misc-circuits
-10MM_SM_COIN_CELL_CLIP
-Battery cell clip for CR927<p>
-Source: KEYSTONE ELECTRONICS CORP.<br>
-www.keyelco.com, ASTORIA, N.Y. 11105-2017<br>
-PART ANME 10mm SM COIN CELl CLIP<br>
-DWG NO. 3030
-
-0
-3
-3
-misc-circuits
+Sprite
 0603
-<p><b>Generic 1608 (0603) package</b></p>
-<p>0.2mm courtyard excess rounded to nearest 0.05mm.</p>
-
-0
-2
-2
-misc-circuits
-0805
-<p><b>Generic 2012 (0805) package</b></p>
-<p>0.2mm courtyard excess rounded to nearest 0.05mm.</p>
-
-0
-2
-2
-misc-circuits
-DCK0006A
-
-
-0
-6
-6
-misc-circuits
-DFE322512C
-muRata (previously TOKO) DFE322512C series inductors
-
-0
-2
-2
-misc-circuits
-DUMMY
-<h3>Dummy Footprint</h3>
-<p>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</p>
-
-<p>Devices using:
-<ul><li>BADGERHACK_LOGO</li>
-<li>FRAME-LETTER</li></ul></p>
-
-0
-0
-0
-misc-circuits
-LPS4018
-Coilcraft LPS4018 series inductor package.
-
-0
-2
-2
-misc-circuits
-QFN50P350X350X100-21N-D
-BQ25570RGRR-1
-Integrated Circuit
-0
-21
-21
-misc-circuits
-RGR0020A
-
-
-0
-22
-22
-misc-circuits
-SCREWTERMINAL-3.5MM-2_LOCK
 
 
 0
 2
 2
-misc-circuits
-SOD523
-<B>DIODE</B>
+Sprite
+0603-CAP
+
 
 0
 2
 2
+Sprite
+0603-RES
+
+
+0
+2
+2
+Sprite
+ANTENNA
+
+
+0
+3
+3
+Sprite
+LED-0603
+
+
+0
+2
+2
+Sprite
+LGA24-8X4
+<h3>24-pin LGA 8x4 pins</h3>
+<p>Footprint: 3.5 x 3mm</p>
+<p>Used by:
+<ul><li>LSM9DS1</li></ul></p>
+<p><em>Unproven</em></p>
+
+0
+24
+24
+Sprite
+RGZ48
+*** TI: RGZ *** JEDEC: S-PQFP-N48 *** 48 PINS *** 
+---> PIN TP (exposed thermal die pad) should be connected with GND
+
+0
+49
+49
+Sprite
+SPRITE_PIN
+
+
+0
+1
+1
+Sprite
+TRISOLX-T01
+
+
+0
+2
+2
+Sprite
+TXC_7Z
+
+
+0
+4
+4
