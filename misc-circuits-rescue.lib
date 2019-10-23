@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# misc-circuits-rescue_0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache
+# 0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache
 #
-DEF misc-circuits-rescue_0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C 0 40 Y Y 1 L N
+DEF 0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C 0 40 Y Y 1 L N
 F0 "C" 60 115 70 H V L BNN
-F1 "misc-circuits-rescue_0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache" 60 -85 70 H V L BNN
+F1 "0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache" 60 -85 70 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -18,11 +18,11 @@ X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-rescue_0OHM-0603-1_10W-5%-misc-circuits-cache
+# 0OHM-0603-1_10W-5%-misc-circuits-cache
 #
-DEF misc-circuits-rescue_0OHM-0603-1_10W-5%-misc-circuits-cache R 0 40 Y Y 1 L N
+DEF 0OHM-0603-1_10W-5%-misc-circuits-cache R 0 40 Y Y 1 L N
 F0 "R" 0 60 70 H V C BNN
-F1 "misc-circuits-rescue_0OHM-0603-1_10W-5%-misc-circuits-cache" 0 -60 70 H V C TNN
+F1 "0OHM-0603-1_10W-5%-misc-circuits-cache" 0 -60 70 H V C TNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -40,11 +40,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-rescue_1.0UF-0603-16V-10%-misc-circuits-cache
+# 1.0UF-0603-16V-10%-misc-circuits-cache
 #
-DEF misc-circuits-rescue_1.0UF-0603-16V-10%-misc-circuits-cache C 0 40 Y Y 1 L N
+DEF 1.0UF-0603-16V-10%-misc-circuits-cache C 0 40 Y Y 1 L N
 F0 "C" 60 115 70 H V L BNN
-F1 "misc-circuits-rescue_1.0UF-0603-16V-10%-misc-circuits-cache" 60 -85 70 H V L BNN
+F1 "1.0UF-0603-16V-10%-misc-circuits-cache" 60 -85 70 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -57,11 +57,11 @@ X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-rescue_10NF-0603-50V-10%-misc-circuits-cache
+# 10NF-0603-50V-10%-misc-circuits-cache
 #
-DEF misc-circuits-rescue_10NF-0603-50V-10%-misc-circuits-cache C 0 40 Y Y 1 L N
+DEF 10NF-0603-50V-10%-misc-circuits-cache C 0 40 Y Y 1 L N
 F0 "C" 60 115 70 H V L BNN
-F1 "misc-circuits-rescue_10NF-0603-50V-10%-misc-circuits-cache" 60 -85 70 H V L BNN
+F1 "10NF-0603-50V-10%-misc-circuits-cache" 60 -85 70 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -74,11 +74,11 @@ X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-rescue_1MOHM-0603-1_4W-5%-misc-circuits-cache
+# 1MOHM-0603-1_4W-5%-misc-circuits-cache
 #
-DEF misc-circuits-rescue_1MOHM-0603-1_4W-5%-misc-circuits-cache R 0 40 Y Y 1 L N
+DEF 1MOHM-0603-1_4W-5%-misc-circuits-cache R 0 40 Y Y 1 L N
 F0 "R" 0 60 70 H V C BNN
-F1 "misc-circuits-rescue_1MOHM-0603-1_4W-5%-misc-circuits-cache" 0 -60 70 H V C TNN
+F1 "1MOHM-0603-1_4W-5%-misc-circuits-cache" 0 -60 70 H V C TNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -96,11 +96,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-rescue_22UF-0805-6.3V-20%-misc-circuits-cache
+# 22UF-0805-6.3V-20%-misc-circuits-cache
 #
-DEF misc-circuits-rescue_22UF-0805-6.3V-20%-misc-circuits-cache C 0 40 Y Y 1 L N
+DEF 22UF-0805-6.3V-20%-misc-circuits-cache C 0 40 Y Y 1 L N
 F0 "C" 60 115 70 H V L BNN
-F1 "misc-circuits-rescue_22UF-0805-6.3V-20%-misc-circuits-cache" 60 -85 70 H V L BNN
+F1 "22UF-0805-6.3V-20%-misc-circuits-cache" 60 -85 70 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -113,11 +113,11 @@ X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-rescue_4.7UF0603-misc-circuits-cache
+# 4.7UF0603-misc-circuits-cache
 #
-DEF misc-circuits-rescue_4.7UF0603-misc-circuits-cache C 0 40 Y Y 1 L N
+DEF 4.7UF0603-misc-circuits-cache C 0 40 Y Y 1 L N
 F0 "C" 60 115 70 H V L BNN
-F1 "misc-circuits-rescue_4.7UF0603-misc-circuits-cache" 60 -85 70 H V L BNN
+F1 "4.7UF0603-misc-circuits-cache" 60 -85 70 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -130,11 +130,11 @@ X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-rescue_BQ25570RGRR-misc-circuits-cache
+# BQ25570RGRR-misc-circuits-cache
 #
-DEF misc-circuits-rescue_BQ25570RGRR-misc-circuits-cache U 0 40 Y Y 1 L N
+DEF BQ25570RGRR-misc-circuits-cache U 0 40 Y Y 1 L N
 F0 "U" -186 59 69 H V L BNN
-F1 "misc-circuits-rescue_BQ25570RGRR-misc-circuits-cache" -211 -41 69 H V L BNN
+F1 "BQ25570RGRR-misc-circuits-cache" -211 -41 69 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -166,11 +166,11 @@ X NC_2 9 1000 -500 200 L 50 50 1 0 W
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-rescue_COILCRAFT-LPS4018-misc-circuits-cache
+# COILCRAFT-LPS4018-misc-circuits-cache
 #
-DEF misc-circuits-rescue_COILCRAFT-LPS4018-misc-circuits-cache L 0 40 Y Y 1 L N
+DEF COILCRAFT-LPS4018-misc-circuits-cache L 0 40 Y Y 1 L N
 F0 "L" -50 -200 59 V V L BNN
-F1 "misc-circuits-rescue_COILCRAFT-LPS4018-misc-circuits-cache" 150 -200 59 V V L BNN
+F1 "COILCRAFT-LPS4018-misc-circuits-cache" 150 -200 59 V V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -187,11 +187,11 @@ X 2 2 0 -300 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-rescue_DIODE-SOD523-misc-circuits-cache
+# DIODE-SOD523-misc-circuits-cache
 #
-DEF misc-circuits-rescue_DIODE-SOD523-misc-circuits-cache D 0 40 Y Y 1 L N
+DEF DIODE-SOD523-misc-circuits-cache D 0 40 Y Y 1 L N
 F0 "D" 100 19 59 H V L BNN
-F1 "misc-circuits-rescue_DIODE-SOD523-misc-circuits-cache" 100 -91 59 H V L BNN
+F1 "DIODE-SOD523-misc-circuits-cache" 100 -91 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -204,19 +204,6 @@ P 2 1 0 0 50 0 50 -50 N
 P 2 1 0 0 50 50 50 0 N
 X A A -100 0 100 R 0 0 1 0 P
 X C C 100 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

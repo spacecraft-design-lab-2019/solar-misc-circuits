@@ -133,8 +133,6 @@ Connection ~ 9150 2600
 Connection ~ 7800 2600
 Wire Wire Line
 	7200 2600 7050 2600
-Text Label 10100 2600 2    20   ~ 0
-+3.3V
 Wire Wire Line
 	7150 3100 7150 2400
 Wire Wire Line
@@ -376,10 +374,10 @@ F 3 "" H 7950 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5DAAA90A
 P 8700 2300
-F 0 "#PWR?" H 8700 2050 50  0001 C CNN
+F 0 "#PWR0101" H 8700 2050 50  0001 C CNN
 F 1 "GND" H 8705 2127 50  0000 C CNN
 F 2 "" H 8700 2300 50  0001 C CNN
 F 3 "" H 8700 2300 50  0001 C CNN
@@ -403,10 +401,10 @@ VOUT_EN
 Wire Wire Line
 	1900 3300 2150 3300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5DB2F2A4
 P 2150 3700
-F 0 "#PWR?" H 2150 3450 50  0001 C CNN
+F 0 "#PWR0102" H 2150 3450 50  0001 C CNN
 F 1 "GND" H 2155 3527 50  0000 C CNN
 F 2 "" H 2150 3700 50  0001 C CNN
 F 3 "" H 2150 3700 50  0001 C CNN
@@ -441,7 +439,7 @@ VSOLAR
 Text Notes 6600 1200 0    70   ~ 0
 MPPT Set Resistors 
 $Comp
-L misc-circuits-cache:4.7UF0603 C4
+L misc-circuits-rescue:4.7UF0603-misc-circuits-cache C4
 U 1 1 F2F2F93C
 P 3700 2300
 F 0 "C4" H 3808 2411 70  0000 L CNN
@@ -452,7 +450,7 @@ F 3 "" H 3700 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0.1UF-0603-25V-(+80_-20%) C6
+L misc-circuits-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C6
 U 1 1 8451312A
 P 8350 2800
 F 0 "C6" H 8458 2911 70  0000 L CNN
@@ -463,7 +461,7 @@ F 3 "" H 8350 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0.1UF-0603-25V-(+80_-20%) C8
+L misc-circuits-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C8
 U 1 1 A7E76009
 P 3350 2300
 F 0 "C8" H 3458 2411 70  0000 L CNN
@@ -474,7 +472,7 @@ F 3 "" H 3350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:10NF-0603-50V-10% C13
+L misc-circuits-rescue:10NF-0603-50V-10%-misc-circuits-cache C13
 U 1 1 8CC800AB
 P 4050 2300
 F 0 "C13" H 4158 2411 70  0000 L CNN
@@ -485,7 +483,7 @@ F 3 "" H 4050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:22UF-0805-6.3V-20% C14
+L misc-circuits-rescue:22UF-0805-6.3V-20%-misc-circuits-cache C14
 U 1 1 9549B0A9
 P 7950 2800
 F 0 "C14" H 8058 2911 70  0000 L CNN
@@ -496,7 +494,7 @@ F 3 "" H 7950 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:DIODE-SOD523 D5
+L misc-circuits-rescue:DIODE-SOD523-misc-circuits-cache D5
 U 1 1 11469583
 P 3000 2250
 F 0 "D5" H 2950 2069 59  0000 L BNN
@@ -507,18 +505,18 @@ F 3 "" H 3000 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:BQ25570RGRR U1
+L misc-circuits-rescue:BQ25570RGRR-misc-circuits-cache U1
 U 1 1 C5A3CDC2
 P 6050 2900
 F 0 "U1" H 6014 2609 69  0000 L BNN
 F 1 "Value" H 5839 2859 69  0001 L BNN
-F 2 "misc-circuits:RGR0020A" H 6050 2900 50  0001 C CNN
+F 2 "misc-circuits:QFN50P350X350X100-21N-D" H 6050 2900 50  0001 C CNN
 F 3 "" H 6050 2900 50  0001 C CNN
 	1    6050 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0.1UF-0603-25V-(+80_-20%) C9
+L misc-circuits-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C9
 U 1 1 4B046222
 P 8750 2800
 F 0 "C9" H 8858 2911 70  0000 L CNN
@@ -529,7 +527,7 @@ F 3 "" H 8750 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0.1UF-0603-25V-(+80_-20%) C16
+L misc-circuits-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C16
 U 1 1 E304C1D9
 P 9150 2800
 F 0 "C16" H 9258 2911 70  0000 L CNN
@@ -540,7 +538,7 @@ F 3 "" H 9150 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0.1UF-0603-25V-(+80_-20%) C17
+L misc-circuits-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C17
 U 1 1 46EAFDFE
 P 9600 2800
 F 0 "C17" H 9708 2911 70  0000 L CNN
@@ -551,7 +549,7 @@ F 3 "" H 9600 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0OHM-0603-1_10W-5% R14
+L misc-circuits-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache R14
 U 1 1 54650AAC
 P 7700 3500
 F 0 "R14" H 7700 3560 70  0000 C BNN
@@ -562,7 +560,7 @@ F 3 "" H 7700 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L misc-circuits-cache:0.1UF-0603-25V-(+80_-20%) C19
+L misc-circuits-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C19
 U 1 1 88E586DF
 P 7150 3300
 F 0 "C19" H 7258 3411 70  0000 L CNN
@@ -573,7 +571,7 @@ F 3 "" H 7150 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0OHM-0603-1_10W-5% R15
+L misc-circuits-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache R15
 U 1 1 E070716E
 P 7450 2000
 F 0 "R15" H 7450 2060 70  0000 C BNN
@@ -584,7 +582,7 @@ F 3 "" H 7450 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L misc-circuits-cache:4.7UF0603 C21
+L misc-circuits-rescue:4.7UF0603-misc-circuits-cache C21
 U 1 1 D994DAD3
 P 8000 2100
 F 0 "C21" H 8108 2211 70  0000 L CNN
@@ -595,7 +593,7 @@ F 3 "" H 8000 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0.1UF-0603-25V-(+80_-20%) C22
+L misc-circuits-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C22
 U 1 1 05A8BE12
 P 8350 2100
 F 0 "C22" H 8458 2211 70  0000 L CNN
@@ -606,7 +604,7 @@ F 3 "" H 8350 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0.1UF-0603-25V-(+80_-20%) C23
+L misc-circuits-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache C23
 U 1 1 88B3C59D
 P 8700 2100
 F 0 "C23" H 8808 2211 70  0000 L CNN
@@ -617,7 +615,7 @@ F 3 "" H 8700 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0OHM-0603-1_10W-5% R16
+L misc-circuits-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache R16
 U 1 1 9B008E36
 P 7450 1450
 F 0 "R16" H 7450 1510 70  0000 C BNN
@@ -628,7 +626,7 @@ F 3 "" H 7450 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L misc-circuits-cache:0OHM-0603-1_10W-5% R17
+L misc-circuits-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache R17
 U 1 1 A14F4B35
 P 6750 1450
 F 0 "R17" H 6750 1510 70  0000 C BNN
@@ -640,7 +638,7 @@ F 4 "DNI" H 6750 1450 50  0001 C CNN "DNI"
 	-1   0    0    1   
 $EndComp
 $Comp
-L misc-circuits-cache:1MOHM-0603-1_4W-5% R20
+L misc-circuits-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache R20
 U 1 1 D0D1B1DA
 P 4200 3950
 F 0 "R20" H 4200 4010 70  0000 C BNN
@@ -651,7 +649,7 @@ F 3 "" H 4200 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:1MOHM-0603-1_4W-5% R22
+L misc-circuits-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache R22
 U 1 1 1DFCDDBB
 P 4800 3950
 F 0 "R22" H 4800 4010 70  0000 C BNN
@@ -662,7 +660,7 @@ F 3 "" H 4800 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:1MOHM-0603-1_4W-5% R23
+L misc-circuits-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache R23
 U 1 1 EB19236A
 P 4200 4450
 F 0 "R23" H 4200 4510 70  0000 C BNN
@@ -673,7 +671,7 @@ F 3 "" H 4200 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:1MOHM-0603-1_4W-5% R24
+L misc-circuits-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache R24
 U 1 1 12E4D8CA
 P 4800 4450
 F 0 "R24" H 4800 4510 70  0000 C BNN
@@ -684,7 +682,7 @@ F 3 "" H 4800 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:1MOHM-0603-1_4W-5% R25
+L misc-circuits-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache R25
 U 1 1 8795F9AC
 P 4200 3450
 F 0 "R25" H 4200 3510 70  0000 C BNN
@@ -695,7 +693,7 @@ F 3 "" H 4200 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:COILCRAFT-LPS4018 L1
+L misc-circuits-rescue:COILCRAFT-LPS4018-misc-circuits-cache L1
 U 1 1 AD385499
 P 4650 1900
 F 0 "L1" V 4800 1850 59  0000 L BNN
@@ -706,7 +704,7 @@ F 3 "" H 4650 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:COILCRAFT-LPS4018 L4
+L misc-circuits-rescue:COILCRAFT-LPS4018-misc-circuits-cache L4
 U 1 1 8C3298C6
 P 7500 2600
 F 0 "L4" V 7450 2600 59  0000 L BNN
@@ -717,7 +715,7 @@ F 3 "" H 7500 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:1MOHM-0603-1_4W-5% R21
+L misc-circuits-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache R21
 U 1 1 5B63B1D5
 P 3550 4250
 F 0 "R21" H 3550 4310 70  0000 C BNN
@@ -728,7 +726,7 @@ F 3 "" H 3550 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:1MOHM-0603-1_4W-5% R19
+L misc-circuits-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache R19
 U 1 1 7CB50D85
 P 3550 3750
 F 0 "R19" H 3550 3810 70  0000 C BNN
@@ -739,10 +737,10 @@ F 3 "" H 3550 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L misc-circuits-cache:1.0UF-0603-16V-10% C?
+L misc-circuits-rescue:1.0UF-0603-16V-10%-misc-circuits-cache C1
 U 1 1 5DB28DEF
 P 2150 3600
-F 0 "C?" H 2258 3711 70  0000 L CNN
+F 0 "C1" H 2258 3711 70  0000 L CNN
 F 1 "1.0uF" H 2258 3590 70  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2150 3600 50  0001 C CNN
 F 3 "" H 2150 3600 50  0001 C CNN
@@ -750,10 +748,10 @@ F 3 "" H 2150 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc-circuits-cache:0OHM-0603-1_10W-5% R?
+L misc-circuits-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache R1
 U 1 1 5DB2F5DE
 P 2350 3300
-F 0 "R?" H 2350 3050 70  0000 C CNN
+F 0 "R1" H 2350 3050 70  0000 C CNN
 F 1 "0" H 2350 3171 70  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2350 3300 50  0001 C CNN
 F 3 "" H 2350 3300 50  0001 C CNN
@@ -761,10 +759,10 @@ F 3 "" H 2350 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L misc-circuits-cache:0OHM-0603-1_10W-5% R?
+L misc-circuits-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache R2
 U 1 1 5DB5E70D
 P 7700 3800
-F 0 "R?" H 7700 3860 70  0000 C BNN
+F 0 "R2" H 7700 3860 70  0000 C BNN
 F 1 "0" H 7700 3740 70  0000 C TNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7700 3800 50  0001 C CNN
 F 3 "" H 7700 3800 50  0001 C CNN

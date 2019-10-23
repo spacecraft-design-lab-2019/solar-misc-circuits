@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name misc-circuits-cache)(type Legacy)(uri ${KIPRJMOD}/misc-circuits-cache.lib)(options "")(descr ""))
+  (lib (name misc-circuits-rescue)(type Legacy)(uri ${KIPRJMOD}/misc-circuits-rescue.lib)(options "")(descr ""))
 )
